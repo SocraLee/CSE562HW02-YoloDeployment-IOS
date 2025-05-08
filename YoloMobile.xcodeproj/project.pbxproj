@@ -16,6 +16,7 @@
 		FEF2EC1A2DC2DBF4005CC1D4 /* YoloMobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF2EC192DC2DBF4005CC1D4 /* YoloMobileTests.swift */; };
 		FEF2EC242DC2DBF4005CC1D4 /* YoloMobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF2EC232DC2DBF4005CC1D4 /* YoloMobileUITests.swift */; };
 		FEF2EC262DC2DBF4005CC1D4 /* YoloMobileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF2EC252DC2DBF4005CC1D4 /* YoloMobileUITestsLaunchTests.swift */; };
+		FEF2EC332DC2EB85005CC1D4 /* yolov8n.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = FEF2EC322DC2EB85005CC1D4 /* yolov8n.mlpackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		FEF2EC1F2DC2DBF4005CC1D4 /* YoloMobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoloMobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEF2EC232DC2DBF4005CC1D4 /* YoloMobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoloMobileUITests.swift; sourceTree = "<group>"; };
 		FEF2EC252DC2DBF4005CC1D4 /* YoloMobileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoloMobileUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FEF2EC322DC2EB85005CC1D4 /* yolov8n.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; name = yolov8n.mlpackage; path = ../../../yolov8n.mlpackage; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		FEF2EC012DC2DBF2005CC1D4 /* YoloMobile */ = {
 			isa = PBXGroup;
 			children = (
+				FEF2EC322DC2EB85005CC1D4 /* yolov8n.mlpackage */,
 				FEF2EC022DC2DBF2005CC1D4 /* AppDelegate.swift */,
 				FEF2EC042DC2DBF2005CC1D4 /* SceneDelegate.swift */,
 				FEF2EC062DC2DBF2005CC1D4 /* ViewController.swift */,
@@ -261,6 +264,7 @@
 				FEF2EC072DC2DBF2005CC1D4 /* ViewController.swift in Sources */,
 				FEF2EC032DC2DBF2005CC1D4 /* AppDelegate.swift in Sources */,
 				FEF2EC052DC2DBF2005CC1D4 /* SceneDelegate.swift in Sources */,
+				FEF2EC332DC2EB85005CC1D4 /* yolov8n.mlpackage in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
